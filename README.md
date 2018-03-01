@@ -14,9 +14,7 @@ Summary: Jalali datetime binding for python
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/jdatetime-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/jdatetime-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/jdatetime-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/jdatetime-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/jdatetime-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/jdatetime-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/jdatetime-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/jdatetime-feedstock)
 
 Current release info
 ====================

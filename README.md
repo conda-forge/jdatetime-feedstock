@@ -14,12 +14,15 @@ Summary: Jalali datetime binding for python
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/jdatetime-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/jdatetime-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/jdatetime-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/jdatetime-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jdatetime/badges/version.svg)](https://anaconda.org/conda-forge/jdatetime)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jdatetime/badges/downloads.svg)](https://anaconda.org/conda-forge/jdatetime)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-jdatetime-green.svg)](https://anaconda.org/conda-forge/jdatetime) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/jdatetime.svg)](https://anaconda.org/conda-forge/jdatetime) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/jdatetime.svg)](https://anaconda.org/conda-forge/jdatetime) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/jdatetime.svg)](https://anaconda.org/conda-forge/jdatetime) |
 
 Installing jdatetime
 ====================

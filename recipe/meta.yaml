@@ -1,4 +1,4 @@
-{% set version = "3.3.0" %}
+{% set version = "3.4.0" %}
 
 package:
   name: jdatetime
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/j/jdatetime/jdatetime-{{ version }}.tar.gz
-  sha256: db88a87a40900a9cef8576e4fc62ff3f42752bf0c146a810092241d1331fe76a
+  sha256: 64e9dda27dadac84b580b8209a4c0086971249a7fc4bce755a490c295129c02c
 
 build:
   noarch: python

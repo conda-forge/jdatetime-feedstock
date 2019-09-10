@@ -9,8 +9,8 @@ source:
   sha256: e4ac5daef4a34996cb5140ca2c355844944eb46af592892d08efdaced66a33d5
 
 build:
-  noarch: python
   number: 0
+  noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
@@ -27,6 +27,7 @@ test:
 about:
   home: https://github.com/slashmili/python-jalali
   license: PSF
+  license_file: LICENSE
   summary: 'Jalali datetime binding for python'
 
 extra:

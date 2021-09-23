@@ -3,11 +3,13 @@ About jdatetime
 
 Home: https://github.com/slashmili/python-jalali
 
-Package license: PSF
+Package license: PSF-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jdatetime-feedstock/blob/master/LICENSE.txt)
 
 Summary: Jalali datetime binding for python
+
+Documentation: https://pythonhosted.org/jdatetime/
 
 Current build status
 ====================

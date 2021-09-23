@@ -1,4 +1,4 @@
-{% set version = "3.6.2" %}
+{% set version = "3.6.4" %}
 
 package:
   name: jdatetime
@@ -6,15 +6,15 @@ package:
 
 source:
   url: https://pypi.io/packages/source/j/jdatetime/jdatetime-{{ version }}.tar.gz
-  sha256: a589e35f0dab89283c1a3de9d70ed6cf657932aaed8e8ce1b0e5801aaab1da67
+  sha256: 39d0be41076b3a3850c3bfa90817e7ed459edc0e9cadce37dc7229b11f121c7e
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python
     - pip
   run:
@@ -28,7 +28,7 @@ about:
   home: https://github.com/slashmili/python-jalali
   license: PSF
   license_file: LICENSE
-  summary: 'Jalali datetime binding for python'
+  summary: Jalali datetime binding for python
 
 extra:
   recipe-maintainers:

@@ -5,7 +5,7 @@ Home: https://github.com/slashmili/python-jalali
 
 Package license: PSF-2.0
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jdatetime-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jdatetime-feedstock/blob/main/LICENSE.txt)
 
 Summary: Jalali datetime binding for python
 
@@ -17,8 +17,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3960&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jdatetime-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3960&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jdatetime-feedstock?branchName=main">
       </a>
     </td>
   </tr>

@@ -1,11 +1,12 @@
+{% set name = "jdatetime" %}
 {% set version = "5.0.0" %}
 
 package:
-  name: jdatetime
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/j/jdatetime/jdatetime-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jdatetime-{{ version }}.tar.gz
   sha256: 2cc603d913c0d8e328928454d3d295261cb037e9950227f67c9629ab4710fdf9
 
 build:
@@ -13,12 +14,18 @@ build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
+build:
+  noarch: python
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+  number: 0
+
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
     - pip
   run:
-    - python >=3.7
+    - python >=3.8
+    - jalali-core >=1.0
 
 test:
   imports:

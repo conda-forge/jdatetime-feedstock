@@ -6,25 +6,21 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jdatetime-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/jdatetime-{{ version }}.tar.gz
   sha256: 2cc603d913c0d8e328928454d3d295261cb037e9950227f67c9629ab4710fdf9
-
-build:
-  number: 0
-  noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
+    - setuptools
     - pip
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - jalali-core >=1.0
 
 test:
@@ -34,6 +30,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/slashmili/python-jalali

@@ -1,5 +1,5 @@
 {% set name = "jdatetime" %}
-{% set version = "5.0.0" %}
+{% set version = "5.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/jdatetime-{{ version }}.tar.gz
-  sha256: 2cc603d913c0d8e328928454d3d295261cb037e9950227f67c9629ab4710fdf9
+  sha256: 25af1f48d1456b9a0acc7b32c68c66e9cccbae541672f9b9724f274d7810a307
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:

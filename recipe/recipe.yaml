@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "6.1.0"
+  version: "6.1.1"
 
 package:
   name: jdatetime
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/j/jdatetime/jdatetime-${{ version }}.tar.gz
-  sha256: e5812d7ebf4c6609a554230cc07defc89d9c113424350fe2d5b7ed7dc50d3097
+  sha256: 2911781ec641a2530e9c57e1063a1ad8f2e20ec7feec9cbcebf6ab9db5efa47a
 
 build:
   number: 0
